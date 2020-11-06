@@ -73,6 +73,9 @@ Improvements to clang-tidy
   <clang-tidy/checks/cppcoreguidelines-init-variables>` and
   :doc:`modernize-make-unique <clang-tidy/checks/modernize-make-unique>`.
 
+- The `run-clang-tidy.py` helper script is now installed in `bin/` as
+  `run-clang-tidy`. It was previously installed in `share/clang/`.
+
 New modules
 ^^^^^^^^^^^
 
